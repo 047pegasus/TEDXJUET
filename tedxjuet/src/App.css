@@ -12,22 +12,26 @@ body{
     height: 1.5em;
     text-align: left;
     margin-top: 1em;
+    
 }
 
 .navspan{
-    margin-left: 3em;
-    padding-top: 0.2em;
+    margin-left: 2.5em;
+    display: flex;
+    justify-items: flex-start;
 }
 
 .navbar a{
     text-decoration: none;
     color: white;
-    padding: 0.7em;
+    padding-right: 0.7em;
     font-family: 'Montserrat SemiBold';
+    margin-left: 0.4em;
+    margin-right: 0.3em;
 }
-.hm{
+
+.hm a{
     color: red;
-    text-decoration: none;
 }
 
 .main-container{

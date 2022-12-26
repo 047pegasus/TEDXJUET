@@ -7,13 +7,13 @@ function Home(){
 return(
   <div id="root">
     <div class="navbar">
-      <span class="navspan">
-      <Link class="hm" to="/">Home</Link>
-      <Link to="/about">About</Link>
-      <Link to="/team">Meet the Team</Link>
-      <Link to="speakers">Current Speakers</Link>
-      <a href="https://www.ted.com/tedx/events/26452">Previous Events</a>
-      </span>
+      <div class="navspan">
+        <div class="hm"><a href="www.tedxjuet">Home</a></div>
+        <div><Link to="/about">About</Link></div>
+        <div><Link to="/team">Meet the Team</Link></div>
+        <div><Link to="speakers">Current Speakers</Link></div>
+        <div><a href="https://www.ted.com/tedx/events/26452">Previous Events</a></div>
+      </div>
     </div>
     <div class="main-container">
       <div class="main-logo"></div>     
