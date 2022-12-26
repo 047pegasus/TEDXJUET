@@ -21,20 +21,21 @@ return(
       <Link to="/speaker"><div class="button">VIEW THE 2023 SPEAKERS</div></Link>
     </div>
     <div class="footer">
-      <span class="footer-span">
-        <div class="inst-logo"></div>
+      <div class="footer-span">
+        <div class="clg-logo">
+          
+          </div>
         <p class="fcopy">2022 Jaypee University of Engineering and Technology</p>
         <p class="finfo">This independent TEDx event is operated under license from TED.</p>
         <div class="social-icons">
-          <span>
             <div class=""></div>
             <div class=""></div>
             <div class=""></div>
             <div class=""></div>
-          </span>
         </div>
-      </span>
+      </div>
     </div>
+
   </div>
 );
 }

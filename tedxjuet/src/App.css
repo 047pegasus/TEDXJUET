@@ -19,6 +19,7 @@ body{
     margin-left: 2.5em;
     display: flex;
     justify-items: flex-start;
+    padding-top:0.1em;
 }
 
 .navbar a{
@@ -76,4 +77,25 @@ body{
 :link{
     text-decoration: none;
     color: white;
+}
+
+.footer{
+    font-family: 'Montserrat';
+    color:white;
+    border: solid;
+    position:fixed;
+    width:100%;
+    bottom:0; 
+}
+
+.footer-span{
+    border:solid;
+    display: flex;
+    justify-content:center;
+}
+.clg-logo{
+    
+}
+.clg-logo img{
+    
 }
