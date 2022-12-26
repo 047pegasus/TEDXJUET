@@ -6,7 +6,7 @@ import About from "./Components/About/About";
 import Speakers from "./Components/Speakers/Speakers";
 import Team from "./Components/Team/Team";
 
-import './App.css';
+import "./App.css";
 
 
 function App() {
@@ -14,7 +14,7 @@ function App() {
     <div className="App">
       <Router>
         <Routes>
-          <Route path="/home" element={<Home />} />
+          <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/speakers" element={<Speakers />} />
           <Route path="/team" element={<Team />} />

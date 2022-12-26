@@ -1,3 +1,75 @@
-*{
-   
+body{
+    background-image: url("./Assets/Background.png");
+    background-size:100%;
+    font-family: 'Montserrat';
+    font-display:white;
+}
+
+.navbar{
+    font-size: 2.5em;
+    color: white;
+    background-color:rgba(255, 255, 255, 0.236);
+    height: 1.5em;
+    text-align: left;
+    margin-top: 1em;
+}
+
+.navspan{
+    margin-left: 3em;
+    padding-top: 0.2em;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: white;
+    padding: 0.7em;
+    font-family: 'Montserrat SemiBold';
+}
+.hm{
+    color: red;
+    text-decoration: none;
+}
+
+.main-container{
+    font-family: 'Montserrat Medium';
+    text-align: right;
+    color:white;
+    font-size:2em;
+   width: fit-content;
+   height: fit-content;
+   margin-right:2.5em;
+   margin-left:auto;
+   margin-top:7em;
+}
+
+.main-logo{
+    background-image:url("./Assets/tedxmain.png");
+    height:4em;
+    width:25.3em;
+}
+
+.tagline{
+    font-family: 'Montserrat SemiBold';
+    padding: 1em 0em 1em 0em;
+    width: fit-content;
+    height: fit-content;
+    margin-right: 0;
+    margin-left: auto;
+}
+
+.button{
+    font-family: 'Montserrat SemiBold';
+    padding:0.7em;
+    border-style: solid;
+    border-radius: 1em;
+    height:fit-content;
+    width:fit-content;
+    margin-right: 0;
+    margin-left: auto;
+    color: white;
+}
+
+:link{
+    text-decoration: none;
+    color: white;
 }
