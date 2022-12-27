@@ -1,5 +1,12 @@
 import React from "react";
 import { Link, useNavigate } from "react-router-dom";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import {
+  faLinkedin,
+  faFacebook,
+  faTwitter,
+  faInstagram
+} from "@fortawesome/free-brands-svg-icons";
 
 function Home(){
   const navigate = useNavigate();
@@ -16,22 +23,24 @@ return(
       </div>
     </div>
     <div class="main-container">
-      <div class="main-logo"></div>     
+      <div class="main-logo"> </div>     
       <div class="tagline"> Innovating. Creating. Developing. </div>
       <Link to="/speaker"><div class="button">VIEW THE 2023 SPEAKERS</div></Link>
     </div>
     <div class="footer">
       <div class="footer-span">
-        <div class="clg-logo">
-          
+        <div class="clg-logo"> 
+        <a href="https://www.juet.ac.in" target="blank"><img class="img-logo" src="https://admission.juet.ac.in/static/images/juet_trans1.jpg" alt="JUET"></img></a>
+        </div>
+          <div class="footer-text">
+            <p class="fcopy"> ©2022 Jaypee University of Engineering and Technology. </p>
+            <p class="finfo"> This independent TEDx event is operated under license from TED.</p>
           </div>
-        <p class="fcopy">2022 Jaypee University of Engineering and Technology</p>
-        <p class="finfo">This independent TEDx event is operated under license from TED.</p>
         <div class="social-icons">
-            <div class=""></div>
-            <div class=""></div>
-            <div class=""></div>
-            <div class=""></div>
+          <a href="https://www.instagram.com/tedxjuet/?theme=dark" target="blank"><FontAwesomeIcon icon={faInstagram} size="2x"/></a>
+          <a href="https://twitter.com/TEDxJUET" target="blank"><FontAwesomeIcon icon={faTwitter} size="2x"/></a>
+          <a href="https://www.linkedin.com/company/tedxjuet/" target="blank"><FontAwesomeIcon icon={faLinkedin} size="2x"/></a>
+          <a href="https://www.facebook.com/tedxjuet/" target="blank"><FontAwesomeIcon icon={faFacebook} size="2x"/></a>
         </div>
       </div>
     </div>
