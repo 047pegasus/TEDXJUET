@@ -1,0 +1,35 @@
+.maincontainer{
+   height: fit-content;
+   width: 80%;
+   font-size:1.5em;
+   color:white;
+   text-align: left;
+   margin-left:4em;
+}
+
+.heading{
+    display: flex;
+    font-weight: bold;
+    font-size: 1.8em;
+    height:2em;
+    width: fit-content;
+    border: solid;
+}
+
+.headwhite{
+    color:white;
+    font-weight: bold;
+}
+
+.headred{
+    color:red;
+    font-weight: bold;
+}
+
+.txt{
+
+}
+
+.info{
+
+}

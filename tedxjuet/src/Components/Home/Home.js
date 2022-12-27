@@ -15,7 +15,7 @@ return(
   <div id="root">
     <div class="navbar">
       <div class="navspan">
-        <div class="hm"><a href="www.tedxjuet">Home</a></div>
+        <div class="hm"><a href="/">Home</a></div>
         <div><Link to="/about">About</Link></div>
         <div><Link to="/team">Meet the Team</Link></div>
         <div><Link to="speakers">Current Speakers</Link></div>
