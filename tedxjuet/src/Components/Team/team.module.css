@@ -10,6 +10,7 @@
     width:80rem;
     border-radius:0.7em;
     margin: 0 auto;
+    text-align: center;
 }
 
 .underl {
@@ -55,3 +56,72 @@
   transition-duration: 400ms;
   transition-property: width, left;
 }
+
+.carouse{
+  height:100%;
+  width: auto;
+  font-family: 'Montserrat';
+  padding-top:1.5em;
+}
+
+.carousecontent{
+  height: 100%;
+  width:fit-content;
+}
+
+.card {
+  width: 10em;
+  height: 14em;
+  background: #07182E;
+  border-radius: 5px;
+  text-align: center;
+  color: #f0f0f0;
+  font-family: inherit;
+  z-index: 1;
+  padding-top:1.7em;
+}
+
+.img {
+  display: flex;
+  margin: 5em auto 5em auto;
+  width: 8em;
+  height: 8em;
+  border: 1px solid #f0f0f0;
+  border-radius: 50%;
+  font-size: 11px;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.5s;
+  z-index: 99;
+  background-color: #152f50;
+}
+
+p {
+  opacity: 0;
+  transition: all 0.5s;
+}
+
+.heading {
+  padding: 0;
+  font-weight: 500;
+  font-size: 1.2em;
+  transition: all 0.5s;
+}
+
+svg {
+  padding: 0 5px;
+  cursor: pointer;
+}
+
+.card:hover .img {
+  transform: scale(1.4);
+  border: 1px solid #f0f0f0;
+}
+
+.card:hover .heading,
+.card:hover p {
+  opacity: 1;
+  transform: scale(1.2);
+  font-size: 1.29em;
+}
+
