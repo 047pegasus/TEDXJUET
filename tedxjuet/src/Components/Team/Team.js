@@ -9,6 +9,7 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 
 import styles from "../Team/team.module.css";
+import "../Team/team.module.css";
 
  function Team(){
     const navigate = useNavigate();
@@ -28,9 +29,11 @@ import styles from "../Team/team.module.css";
         </div>
 
         <div className={styles.maincontainer}>
-           <img className={styles.teamhead} src="https://raw.githubusercontent.com/047pegasus/TEDXJUET/master/tedxjuet/src/Assets/team.png" alt="TEAM MEMBERS" />
+           <div className={styles.underl}>
+           Team Members
+          </div>
           <div className={styles.carouselbox}>
-
+          
           </div>
         </div>
 

@@ -25,7 +25,13 @@ return(
     <div class="main-container">
       <div class="main-logo"> </div>     
       <div class="tagline"> Innovating. Creating. Developing. </div>
-      <Link to="/speaker"><div class="button">VIEW THE 2023 SPEAKERS</div></Link>
+      <Link to="/speaker"><button>
+  <span></span>
+  <span></span>
+  <span></span>
+  <span></span> VIEW THE 2023 SPEAKERS
+</button>
+  </Link>
     </div>
     <div class="footer">
       <div class="footer-span">
