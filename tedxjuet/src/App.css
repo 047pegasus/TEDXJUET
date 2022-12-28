@@ -6,7 +6,7 @@ body{
 }
 
 .navbar{
-    font-size: 2em;
+    font-size: 1.7em;
     color: white;
     background-color:rgba(255, 255, 255, 0.236);
     height: 2em;
@@ -16,7 +16,7 @@ body{
 }
 
 .navspan{
-    margin-left: 2.5em;
+    margin-left: 2em;
     display: flex;
     justify-items: flex-start;
     padding-top:0.3em;
@@ -33,13 +33,14 @@ body{
 
 .hm a{
     color: red;
+    font-weight: 900;
 }
 
 .main-container{
     font-family: 'Montserrat Medium';
     text-align: right;
     color:white;
-    font-size:2em;
+    font-size:1.7em;
    width: fit-content;
    height: fit-content;
    margin-right:3em;
@@ -49,8 +50,8 @@ body{
 
 .main-logo{
     background-image:url("./Assets/tedxmain.png");
-    height:4em;
-    width:25.3em;
+    height:4.8em;
+    width:29.5em;
 }
 
 .tagline{
@@ -66,7 +67,7 @@ body{
     font-family: 'Montserrat SemiBold';
     padding:0.7em;
     border-style: solid;
-    border-radius: 1em;
+    border-radius: 0.7em;
     height:fit-content;
     width:fit-content;
     margin-right: 0;
@@ -102,8 +103,8 @@ body{
     margin-right:auto;
 }
 .img-logo{
-    height:4em;
-    width:3em;
+    height:3em;
+    width:2.5em;
 }
 
 .footer-text{
@@ -113,7 +114,7 @@ body{
 .footer-text p{
     text-align: center;
     padding: 0em .5em;
-    font-size:1.2em;
+    font-size:1em;
 }
 
 .fcopy{
@@ -125,7 +126,7 @@ body{
 
 .social-icons{
     right:0;
-    padding:1em 0.5em;
+    padding:0.5em;
     margin-right:0;
     margin-left: auto;
     width: fit-content;
