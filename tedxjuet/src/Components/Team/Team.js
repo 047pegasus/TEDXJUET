@@ -28,8 +28,10 @@ import styles from "../Team/team.module.css";
         </div>
 
         <div className={styles.maincontainer}>
-           <img className={styles.teamhead} src="" alt="TEAM MEMBERS" />
-        
+           <img className={styles.teamhead} src="https://raw.githubusercontent.com/047pegasus/TEDXJUET/master/tedxjuet/src/Assets/team.png" alt="TEAM MEMBERS" />
+          <div className={styles.carouselbox}>
+
+          </div>
         </div>
 
         <div class="footer">

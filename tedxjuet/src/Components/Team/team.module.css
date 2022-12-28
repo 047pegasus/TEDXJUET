@@ -1,6 +1,20 @@
 .maincontainer{
-    
+    font-family: 'Montserrat';
+    font-size: 2em;
+    text-align: center;
 }
+
 .teamhead{
-    
+    height:3.2em;
+    width:auto;
+    margin: 0 auto;
+    margin-top:1em;
+}
+
+.carouselbox{
+    background-color:rgba(255, 255, 255, 0.216);
+    height:37rem;
+    width:80rem;
+    border-radius:0.7em;
+    margin: 0 auto;
 }
