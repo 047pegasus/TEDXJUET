@@ -19,7 +19,7 @@ body{
     margin-left: 2em;
     display: flex;
     justify-items: flex-start;
-    padding-top:0.3em;
+    padding-top:0.35em;
 }
 
 .navbar a{
@@ -34,6 +34,19 @@ body{
 .hm a{
     color: red;
     font-weight: 900;
+}
+
+.logosmall{
+    height: auto;
+    width: auto;
+    position:absolute;
+    right: 2.5em;
+    padding-top:0.1em;
+}
+
+.logosmallimg{
+    height:2rem;
+    width: auto;  
 }
 
 .main-container{
