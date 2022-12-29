@@ -12,7 +12,6 @@ body{
     height: 2em;
     text-align: left;
     margin-top: 1em;
-    
 }
 
 .navspan{
@@ -29,6 +28,10 @@ body{
     font-family: 'Montserrat SemiBold';
     margin-left: 0.4em;
     margin-right: 0.3em;
+    transition: all 0.5s;
+    transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+    transition-duration: 400ms;
+    width: fit-content;
 }
 
 .hm a{
@@ -128,6 +131,7 @@ body{
     text-align: center;
     padding: 0em .5em;
     font-size:1em;
+    opacity:1;
 }
 
 .fcopy{

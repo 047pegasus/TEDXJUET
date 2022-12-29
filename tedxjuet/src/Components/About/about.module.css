@@ -18,12 +18,14 @@
 }
 
 .headwhite{
+    opacity: 1;
     font-weight: bold;
     height: fit-content;
     margin:0 auto;
 }
 
 .headred{
+    opacity: 1;
     color:red;
     font-weight: bold;
     height: fit-content;
@@ -36,12 +38,15 @@
     margin: 0 auto;
     margin-bottom: 2.3em;
     margin-top: 0.5em;
+    opacity: 1;
 }
 
 .info{
+    opacity: 1;
     font-family:'Montserrat';
     height: fit-content;
     margin: 0 auto;
     margin-top: 0.3em;
     font-weight: 430;
 }
+

@@ -48,7 +48,7 @@ import "slick-carousel/slick/slick-theme.css";
           <div className={styles.carousecontent}>
           <div className={styles.card}>
   <div className={styles.img}>
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="30" height="30"><path fill="none" d="M0 0h24v24H0z"></path><path d="M4.828 21l-.02.02-.021-.02H2.992A.993.993 0 0 1 2 20.007V3.993A1 1 0 0 1 2.992 3h18.016c.548 0 .992.445.992.993v16.014a1 1 0 0 1-.992.993H4.828zM20 15V5H4v14L14 9l6 6zm0 2.828l-6-6L6.828 19H20v-1.172zM8 11a2 2 0 1 1 0-4 2 2 0 0 1 0 4z" fill="rgba(236,240,241,1)"></path></svg>
+    <img src="" alt="Pic" viewBox="0 0 24 24" width="30" height="30"/>
   </div>
   <span className={styles.heading}>Isha Sehgal</span><br/>
   <span className={styles.designation}><b>Organizer</b><br/>TEDx JUET</span>
@@ -68,7 +68,7 @@ import "slick-carousel/slick/slick-theme.css";
           <div className={styles.carousecontent}>
           <div className={styles.card}>
   <div className={styles.img}>
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="30" height="30"><path fill="none" d="M0 0h24v24H0z"></path><path d="M4.828 21l-.02.02-.021-.02H2.992A.993.993 0 0 1 2 20.007V3.993A1 1 0 0 1 2.992 3h18.016c.548 0 .992.445.992.993v16.014a1 1 0 0 1-.992.993H4.828zM20 15V5H4v14L14 9l6 6zm0 2.828l-6-6L6.828 19H20v-1.172zM8 11a2 2 0 1 1 0-4 2 2 0 0 1 0 4z" fill="rgba(236,240,241,1)"></path></svg>
+  <img src="" alt="Pic" viewBox="0 0 24 24" width="30" height="30"/>
   </div>
   <span className={styles.heading}>Hardik Sharma</span><br/>
   <span className={styles.designation}><b>Co-Organizer</b><br/>TEDx JUET</span>
@@ -88,10 +88,10 @@ import "slick-carousel/slick/slick-theme.css";
           <div className={styles.carousecontent}>
           <div className={styles.card}>
   <div className={styles.img}>
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="30" height="30"><path fill="none" d="M0 0h24v24H0z"></path><path d="M4.828 21l-.02.02-.021-.02H2.992A.993.993 0 0 1 2 20.007V3.993A1 1 0 0 1 2.992 3h18.016c.548 0 .992.445.992.993v16.014a1 1 0 0 1-.992.993H4.828zM20 15V5H4v14L14 9l6 6zm0 2.828l-6-6L6.828 19H20v-1.172zM8 11a2 2 0 1 1 0-4 2 2 0 0 1 0 4z" fill="rgba(236,240,241,1)"></path></svg>
+  <img src="" alt="Pic" viewBox="0 0 24 24" width="30" height="30"/>
   </div>
   <span className={styles.heading}>Tanishq<br/>Agarwal</span><br/>
-  <span className={styles.designation}>Development Lead,<br/>TEDx JUET</span>
+  <span className={styles.designation}>Lead Developer<br/>TEDx JUET</span>
   <p>
     <svg class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" width="30" height="30">
       <path d="M962.267429 233.179429q-38.253714 56.027429-92.598857 95.451429 0.585143 7.972571 0.585143 23.990857 0 74.313143-21.723429 148.260571t-65.974857 141.970286-105.398857 120.32-147.456 83.456-184.539429 31.158857q-154.843429 0-283.428571-82.870857 19.968 2.267429 44.544 2.267429 128.585143 0 229.156571-78.848-59.977143-1.170286-107.446857-36.864t-65.170286-91.136q18.870857 2.852571 34.889143 2.852571 24.576 0 48.566857-6.290286-64-13.165714-105.984-63.707429t-41.984-117.394286l0-2.267429q38.838857 21.723429 83.456 23.405714-37.741714-25.161143-59.977143-65.682286t-22.308571-87.990857q0-50.322286 25.161143-93.110857 69.12 85.138286 168.301714 136.265143t212.260571 56.832q-4.534857-21.723429-4.534857-42.276571 0-76.580571 53.979429-130.56t130.56-53.979429q80.018286 0 134.875429 58.294857 62.317714-11.995429 117.174857-44.544-21.138286 65.682286-81.115429 101.741714 53.174857-5.705143 106.276571-28.598857z" fill="white"></path>
@@ -108,10 +108,10 @@ import "slick-carousel/slick/slick-theme.css";
           <div className={styles.carousecontent}>
           <div className={styles.card}>
   <div className={styles.img}>
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="30" height="30"><path fill="none" d="M0 0h24v24H0z"></path><path d="M4.828 21l-.02.02-.021-.02H2.992A.993.993 0 0 1 2 20.007V3.993A1 1 0 0 1 2.992 3h18.016c.548 0 .992.445.992.993v16.014a1 1 0 0 1-.992.993H4.828zM20 15V5H4v14L14 9l6 6zm0 2.828l-6-6L6.828 19H20v-1.172zM8 11a2 2 0 1 1 0-4 2 2 0 0 1 0 4z" fill="rgba(236,240,241,1)"></path></svg>
+  <img src="" alt="Pic" viewBox="0 0 24 24" width="30" height="30"/>
   </div>
   <span className={styles.heading}>Himanshu Kr. Mahto</span><br/>
-  <span className={styles.designation}>Co-ordinator<br/>Development,TEDx JUET</span>
+  <span className={styles.designation}>Co-ordinator<br/>Development<br/>TEDx JUET</span>
   <p>
     <svg class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" width="30" height="30">
       <path d="M962.267429 233.179429q-38.253714 56.027429-92.598857 95.451429 0.585143 7.972571 0.585143 23.990857 0 74.313143-21.723429 148.260571t-65.974857 141.970286-105.398857 120.32-147.456 83.456-184.539429 31.158857q-154.843429 0-283.428571-82.870857 19.968 2.267429 44.544 2.267429 128.585143 0 229.156571-78.848-59.977143-1.170286-107.446857-36.864t-65.170286-91.136q18.870857 2.852571 34.889143 2.852571 24.576 0 48.566857-6.290286-64-13.165714-105.984-63.707429t-41.984-117.394286l0-2.267429q38.838857 21.723429 83.456 23.405714-37.741714-25.161143-59.977143-65.682286t-22.308571-87.990857q0-50.322286 25.161143-93.110857 69.12 85.138286 168.301714 136.265143t212.260571 56.832q-4.534857-21.723429-4.534857-42.276571 0-76.580571 53.979429-130.56t130.56-53.979429q80.018286 0 134.875429 58.294857 62.317714-11.995429 117.174857-44.544-21.138286 65.682286-81.115429 101.741714 53.174857-5.705143 106.276571-28.598857z" fill="white"></path>
@@ -128,10 +128,10 @@ import "slick-carousel/slick/slick-theme.css";
           <div className={styles.carousecontent}>
           <div className={styles.card}>
   <div className={styles.img}>
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="30" height="30"><path fill="none" d="M0 0h24v24H0z"></path><path d="M4.828 21l-.02.02-.021-.02H2.992A.993.993 0 0 1 2 20.007V3.993A1 1 0 0 1 2.992 3h18.016c.548 0 .992.445.992.993v16.014a1 1 0 0 1-.992.993H4.828zM20 15V5H4v14L14 9l6 6zm0 2.828l-6-6L6.828 19H20v-1.172zM8 11a2 2 0 1 1 0-4 2 2 0 0 1 0 4z" fill="rgba(236,240,241,1)"></path></svg>
+  <img src="" alt="Pic" viewBox="0 0 24 24" width="30" height="30"/>
   </div>
   <span className={styles.heading}>Hrishikeh Bhatt</span><br/>
-  <span className={styles.designation}>Co-ordinator<br/>Development,TEDx JUET</span>
+  <span className={styles.designation}>Co-ordinator<br/>Development<br/>TEDx JUET</span>
   <p>
     <svg class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" width="30" height="30">
       <path d="M962.267429 233.179429q-38.253714 56.027429-92.598857 95.451429 0.585143 7.972571 0.585143 23.990857 0 74.313143-21.723429 148.260571t-65.974857 141.970286-105.398857 120.32-147.456 83.456-184.539429 31.158857q-154.843429 0-283.428571-82.870857 19.968 2.267429 44.544 2.267429 128.585143 0 229.156571-78.848-59.977143-1.170286-107.446857-36.864t-65.170286-91.136q18.870857 2.852571 34.889143 2.852571 24.576 0 48.566857-6.290286-64-13.165714-105.984-63.707429t-41.984-117.394286l0-2.267429q38.838857 21.723429 83.456 23.405714-37.741714-25.161143-59.977143-65.682286t-22.308571-87.990857q0-50.322286 25.161143-93.110857 69.12 85.138286 168.301714 136.265143t212.260571 56.832q-4.534857-21.723429-4.534857-42.276571 0-76.580571 53.979429-130.56t130.56-53.979429q80.018286 0 134.875429 58.294857 62.317714-11.995429 117.174857-44.544-21.138286 65.682286-81.115429 101.741714 53.174857-5.705143 106.276571-28.598857z" fill="white"></path>
@@ -148,7 +148,7 @@ import "slick-carousel/slick/slick-theme.css";
           <div className={styles.carousecontent}>
           <div className={styles.card}>
   <div className={styles.img}>
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="30" height="30"><path fill="none" d="M0 0h24v24H0z"></path><path d="M4.828 21l-.02.02-.021-.02H2.992A.993.993 0 0 1 2 20.007V3.993A1 1 0 0 1 2.992 3h18.016c.548 0 .992.445.992.993v16.014a1 1 0 0 1-.992.993H4.828zM20 15V5H4v14L14 9l6 6zm0 2.828l-6-6L6.828 19H20v-1.172zM8 11a2 2 0 1 1 0-4 2 2 0 0 1 0 4z" fill="rgba(236,240,241,1)"></path></svg>
+  <img src="" alt="Pic" viewBox="0 0 24 24" width="30" height="30"/>
   </div>
   <span className={styles.heading}>Dr. Abhishek Shukla</span><br/>
   <span className={styles.designation}>Faculty Advisor<br/>TEDx JUET</span>
@@ -168,7 +168,7 @@ import "slick-carousel/slick/slick-theme.css";
           <div className={styles.carousecontent}>
           <div className={styles.card}>
   <div className={styles.img}>
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="30" height="30"><path fill="none" d="M0 0h24v24H0z"></path><path d="M4.828 21l-.02.02-.021-.02H2.992A.993.993 0 0 1 2 20.007V3.993A1 1 0 0 1 2.992 3h18.016c.548 0 .992.445.992.993v16.014a1 1 0 0 1-.992.993H4.828zM20 15V5H4v14L14 9l6 6zm0 2.828l-6-6L6.828 19H20v-1.172zM8 11a2 2 0 1 1 0-4 2 2 0 0 1 0 4z" fill="rgba(236,240,241,1)"></path></svg>
+  <img src="" alt="Pic" viewBox="0 0 24 24" width="30" height="30"/>
   </div>
   <span className={styles.heading}>Karan Pal</span><br/>
   <span className={styles.designation}>Operations Manager<br/>TEDx JUET</span>
@@ -193,7 +193,7 @@ import "slick-carousel/slick/slick-theme.css";
           <div className={styles.carousecontent}>
           <div className={styles.card}>
   <div className={styles.img}>
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="30" height="30"><path fill="none" d="M0 0h24v24H0z"></path><path d="M4.828 21l-.02.02-.021-.02H2.992A.993.993 0 0 1 2 20.007V3.993A1 1 0 0 1 2.992 3h18.016c.548 0 .992.445.992.993v16.014a1 1 0 0 1-.992.993H4.828zM20 15V5H4v14L14 9l6 6zm0 2.828l-6-6L6.828 19H20v-1.172zM8 11a2 2 0 1 1 0-4 2 2 0 0 1 0 4z" fill="rgba(236,240,241,1)"></path></svg>
+  <img src="" alt="Pic" viewBox="0 0 24 24" width="30" height="30"/>
   </div>
   <span className={styles.heading}>Ali Shayaryar</span><br/>
   <span className={styles.designation}>Head Designer<br/>TEDx JUET</span>
@@ -213,7 +213,7 @@ import "slick-carousel/slick/slick-theme.css";
           <div className={styles.carousecontent}>
           <div className={styles.card}>
   <div className={styles.img}>
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="30" height="30"><path fill="none" d="M0 0h24v24H0z"></path><path d="M4.828 21l-.02.02-.021-.02H2.992A.993.993 0 0 1 2 20.007V3.993A1 1 0 0 1 2.992 3h18.016c.548 0 .992.445.992.993v16.014a1 1 0 0 1-.992.993H4.828zM20 15V5H4v14L14 9l6 6zm0 2.828l-6-6L6.828 19H20v-1.172zM8 11a2 2 0 1 1 0-4 2 2 0 0 1 0 4z" fill="rgba(236,240,241,1)"></path></svg>
+  <img src="" alt="Pic" viewBox="0 0 24 24" width="30" height="30"/>
   </div>
   <span className={styles.heading}>Ashutosh Mishra</span><br/>
   <span className={styles.designation}>Co-ordinator, Designing<br/>TEDx JUET</span>
@@ -233,7 +233,7 @@ import "slick-carousel/slick/slick-theme.css";
           <div className={styles.carousecontent}>
           <div className={styles.card}>
   <div className={styles.img}>
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="30" height="30"><path fill="none" d="M0 0h24v24H0z"></path><path d="M4.828 21l-.02.02-.021-.02H2.992A.993.993 0 0 1 2 20.007V3.993A1 1 0 0 1 2.992 3h18.016c.548 0 .992.445.992.993v16.014a1 1 0 0 1-.992.993H4.828zM20 15V5H4v14L14 9l6 6zm0 2.828l-6-6L6.828 19H20v-1.172zM8 11a2 2 0 1 1 0-4 2 2 0 0 1 0 4z" fill="rgba(236,240,241,1)"></path></svg>
+  <img src="" alt="Pic" viewBox="0 0 24 24" width="30" height="30"/>
   </div>
   <span className={styles.heading}>Alakh Shrivastava</span><br/>
   <span className={styles.designation}>Cordinator, Designing<br/>TEDx JUET</span>
@@ -253,7 +253,7 @@ import "slick-carousel/slick/slick-theme.css";
           <div className={styles.carousecontent}>
           <div className={styles.card}>
   <div className={styles.img}>
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="30" height="30"><path fill="none" d="M0 0h24v24H0z"></path><path d="M4.828 21l-.02.02-.021-.02H2.992A.993.993 0 0 1 2 20.007V3.993A1 1 0 0 1 2.992 3h18.016c.548 0 .992.445.992.993v16.014a1 1 0 0 1-.992.993H4.828zM20 15V5H4v14L14 9l6 6zm0 2.828l-6-6L6.828 19H20v-1.172zM8 11a2 2 0 1 1 0-4 2 2 0 0 1 0 4z" fill="rgba(236,240,241,1)"></path></svg>
+  <img src="" alt="Pic" viewBox="0 0 24 24" width="30" height="30"/>
   </div>
   <span className={styles.heading}>Utkarsh Rai</span><br/>
   <span className={styles.designation}>Head, Curation Team<br/>TEDx JUET</span>
@@ -273,7 +273,7 @@ import "slick-carousel/slick/slick-theme.css";
           <div className={styles.carousecontent}>
           <div className={styles.card}>
   <div className={styles.img}>
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="30" height="30"><path fill="none" d="M0 0h24v24H0z"></path><path d="M4.828 21l-.02.02-.021-.02H2.992A.993.993 0 0 1 2 20.007V3.993A1 1 0 0 1 2.992 3h18.016c.548 0 .992.445.992.993v16.014a1 1 0 0 1-.992.993H4.828zM20 15V5H4v14L14 9l6 6zm0 2.828l-6-6L6.828 19H20v-1.172zM8 11a2 2 0 1 1 0-4 2 2 0 0 1 0 4z" fill="rgba(236,240,241,1)"></path></svg>
+  <img src="" alt="Pic" viewBox="0 0 24 24" width="30" height="30"/>
   </div>
   <span className={styles.heading}>Chirag Jain</span><br/>
   <span className={styles.designation}>Coodinator, Curation<br/>TEDx JUET</span>
@@ -293,7 +293,7 @@ import "slick-carousel/slick/slick-theme.css";
           <div className={styles.carousecontent}>
           <div className={styles.card}>
   <div className={styles.img}>
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="30" height="30"><path fill="none" d="M0 0h24v24H0z"></path><path d="M4.828 21l-.02.02-.021-.02H2.992A.993.993 0 0 1 2 20.007V3.993A1 1 0 0 1 2.992 3h18.016c.548 0 .992.445.992.993v16.014a1 1 0 0 1-.992.993H4.828zM20 15V5H4v14L14 9l6 6zm0 2.828l-6-6L6.828 19H20v-1.172zM8 11a2 2 0 1 1 0-4 2 2 0 0 1 0 4z" fill="rgba(236,240,241,1)"></path></svg>
+  <img src="" alt="Pic" viewBox="0 0 24 24" width="30" height="30"/>
   </div>
   <span className={styles.heading}>Sampurn Chauksey</span><br/>
   <span className={styles.designation}>Coodinator, Curation<br/>TEDx JUET</span>
@@ -313,7 +313,7 @@ import "slick-carousel/slick/slick-theme.css";
           <div className={styles.carousecontent}>
           <div className={styles.card}>
   <div className={styles.img}>
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="30" height="30"><path fill="none" d="M0 0h24v24H0z"></path><path d="M4.828 21l-.02.02-.021-.02H2.992A.993.993 0 0 1 2 20.007V3.993A1 1 0 0 1 2.992 3h18.016c.548 0 .992.445.992.993v16.014a1 1 0 0 1-.992.993H4.828zM20 15V5H4v14L14 9l6 6zm0 2.828l-6-6L6.828 19H20v-1.172zM8 11a2 2 0 1 1 0-4 2 2 0 0 1 0 4z" fill="rgba(236,240,241,1)"></path></svg>
+  <img src="" alt="Pic" viewBox="0 0 24 24" width="30" height="30"/>
   </div>
   <span className={styles.heading}>Pritam S.<br/>Shikhawat</span><br/>
   <span className={styles.designation}>Coodinator, Curation<br/>TEDx JUET</span>
@@ -339,7 +339,7 @@ import "slick-carousel/slick/slick-theme.css";
           <div className={styles.carousecontent}>
           <div className={styles.card}>
   <div className={styles.img}>
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="30" height="30"><path fill="none" d="M0 0h24v24H0z"></path><path d="M4.828 21l-.02.02-.021-.02H2.992A.993.993 0 0 1 2 20.007V3.993A1 1 0 0 1 2.992 3h18.016c.548 0 .992.445.992.993v16.014a1 1 0 0 1-.992.993H4.828zM20 15V5H4v14L14 9l6 6zm0 2.828l-6-6L6.828 19H20v-1.172zM8 11a2 2 0 1 1 0-4 2 2 0 0 1 0 4z" fill="rgba(236,240,241,1)"></path></svg>
+  <img src="" alt="Pic" viewBox="0 0 24 24" width="30" height="30"/>
   </div>
   <span className={styles.heading}>Sanyam Jain</span><br/>
   <span className={styles.designation}>Head, Sponsorship<br/>TEDx JUET</span>
@@ -359,7 +359,7 @@ import "slick-carousel/slick/slick-theme.css";
           <div className={styles.carousecontent}>
           <div className={styles.card}>
   <div className={styles.img}>
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="30" height="30"><path fill="none" d="M0 0h24v24H0z"></path><path d="M4.828 21l-.02.02-.021-.02H2.992A.993.993 0 0 1 2 20.007V3.993A1 1 0 0 1 2.992 3h18.016c.548 0 .992.445.992.993v16.014a1 1 0 0 1-.992.993H4.828zM20 15V5H4v14L14 9l6 6zm0 2.828l-6-6L6.828 19H20v-1.172zM8 11a2 2 0 1 1 0-4 2 2 0 0 1 0 4z" fill="rgba(236,240,241,1)"></path></svg>
+  <img src="" alt="Pic" viewBox="0 0 24 24" width="30" height="30"/>
   </div>
   <span className={styles.heading}>Vibhor Tiwari</span><br/>
   <span className={styles.designation}>Coordinator<br/>Sponsorship<br/>TEDx JUET</span>
@@ -379,7 +379,7 @@ import "slick-carousel/slick/slick-theme.css";
           <div className={styles.carousecontent}>
           <div className={styles.card}>
   <div className={styles.img}>
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="30" height="30"><path fill="none" d="M0 0h24v24H0z"></path><path d="M4.828 21l-.02.02-.021-.02H2.992A.993.993 0 0 1 2 20.007V3.993A1 1 0 0 1 2.992 3h18.016c.548 0 .992.445.992.993v16.014a1 1 0 0 1-.992.993H4.828zM20 15V5H4v14L14 9l6 6zm0 2.828l-6-6L6.828 19H20v-1.172zM8 11a2 2 0 1 1 0-4 2 2 0 0 1 0 4z" fill="rgba(236,240,241,1)"></path></svg>
+  <img src="" alt="Pic" viewBox="0 0 24 24" width="30" height="30"/>
   </div>
   <span className={styles.heading}>Shrishti<br/>Saumya</span><br/>
   <span className={styles.designation}>Coordinator Sponsorship<br/>TEDx JUET</span>
@@ -399,7 +399,7 @@ import "slick-carousel/slick/slick-theme.css";
           <div className={styles.carousecontent}>
           <div className={styles.card}>
   <div className={styles.img}>
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="30" height="30"><path fill="none" d="M0 0h24v24H0z"></path><path d="M4.828 21l-.02.02-.021-.02H2.992A.993.993 0 0 1 2 20.007V3.993A1 1 0 0 1 2.992 3h18.016c.548 0 .992.445.992.993v16.014a1 1 0 0 1-.992.993H4.828zM20 15V5H4v14L14 9l6 6zm0 2.828l-6-6L6.828 19H20v-1.172zM8 11a2 2 0 1 1 0-4 2 2 0 0 1 0 4z" fill="rgba(236,240,241,1)"></path></svg>
+  <img src="" alt="Pic" viewBox="0 0 24 24" width="30" height="30"/>
   </div>
   <span className={styles.heading}>Utkarsh Gupta</span><br/>
   <span className={styles.designation}>Content & Social Media<br/>TEDx JUET</span>
@@ -419,7 +419,7 @@ import "slick-carousel/slick/slick-theme.css";
           <div className={styles.carousecontent}>
           <div className={styles.card}>
   <div className={styles.img}>
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="30" height="30"><path fill="none" d="M0 0h24v24H0z"></path><path d="M4.828 21l-.02.02-.021-.02H2.992A.993.993 0 0 1 2 20.007V3.993A1 1 0 0 1 2.992 3h18.016c.548 0 .992.445.992.993v16.014a1 1 0 0 1-.992.993H4.828zM20 15V5H4v14L14 9l6 6zm0 2.828l-6-6L6.828 19H20v-1.172zM8 11a2 2 0 1 1 0-4 2 2 0 0 1 0 4z" fill="rgba(236,240,241,1)"></path></svg>
+  <img src="" alt="Pic" viewBox="0 0 24 24" width="30" height="30"/>
   </div>
   <span className={styles.heading}>Pramiti Tewari</span><br/>
   <span className={styles.designation}>Content & Social Media<br/>TEDx JUET</span>
@@ -439,7 +439,7 @@ import "slick-carousel/slick/slick-theme.css";
           <div className={styles.carousecontent}>
           <div className={styles.card}>
   <div className={styles.img}>
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="30" height="30"><path fill="none" d="M0 0h24v24H0z"></path><path d="M4.828 21l-.02.02-.021-.02H2.992A.993.993 0 0 1 2 20.007V3.993A1 1 0 0 1 2.992 3h18.016c.548 0 .992.445.992.993v16.014a1 1 0 0 1-.992.993H4.828zM20 15V5H4v14L14 9l6 6zm0 2.828l-6-6L6.828 19H20v-1.172zM8 11a2 2 0 1 1 0-4 2 2 0 0 1 0 4z" fill="rgba(236,240,241,1)"></path></svg>
+  <img src="" alt="Pic" viewBox="0 0 24 24" width="30" height="30"/>
   </div>
   <span className={styles.heading}>Ina Zehra</span><br/>
   <span className={styles.designation}>Content & Social Media<br/>TEDx JUET</span>
@@ -459,7 +459,7 @@ import "slick-carousel/slick/slick-theme.css";
           <div className={styles.carousecontent}>
           <div className={styles.card}>
   <div className={styles.img}>
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="30" height="30"><path fill="none" d="M0 0h24v24H0z"></path><path d="M4.828 21l-.02.02-.021-.02H2.992A.993.993 0 0 1 2 20.007V3.993A1 1 0 0 1 2.992 3h18.016c.548 0 .992.445.992.993v16.014a1 1 0 0 1-.992.993H4.828zM20 15V5H4v14L14 9l6 6zm0 2.828l-6-6L6.828 19H20v-1.172zM8 11a2 2 0 1 1 0-4 2 2 0 0 1 0 4z" fill="rgba(236,240,241,1)"></path></svg>
+  <img src="" alt="Pic" viewBox="0 0 24 24" width="30" height="30"/>
   </div>
   <span className={styles.heading}>Kasturi Sinha</span><br/>
   <span className={styles.designation}>Content & Social Media<br/>TEDx JUET</span>
