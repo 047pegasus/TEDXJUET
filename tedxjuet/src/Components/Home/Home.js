@@ -25,7 +25,7 @@ return(
     <div class="main-container">
       <div class="main-logo"> </div>     
       <div class="tagline"> Innovating. Creating. Developing. </div>
-      <Link to="/speaker"><button>
+      <Link to="/speakers"><button>
   <span></span>
   <span></span>
   <span></span>
