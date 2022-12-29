@@ -1,26 +1,28 @@
 .maincontainer{
     font-family: 'Montserrat';
     font-size: 2em;
-    text-align: center;
-}
+    display: flex;
+    justify-content: flex-start;
+    margin: 0 auto;
+  }
 
 .carouselbox{
     background-color:rgba(255, 255, 255, 0.216);
     height:37rem;
-    width:80rem;
+    width:25rem;
     border-radius:0.7em;
     margin: 0 auto;
     text-align: center;
 }
 
 .underl {
-  font-size: 1.5em;
+  font-size: 3em;
   color: #e1e1e1;
   font-family: 'Montserrat';
   font-weight: 700;
   cursor: pointer;
   position: relative;
-  border: none;
+  border:none;
   background: none;
   text-transform: uppercase;
   transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
@@ -61,7 +63,7 @@
   height:100%;
   width: auto;
   font-family: 'Montserrat';
-  padding-top:1.5em;
+  padding-top:1em;
 }
 
 .carousecontent{
@@ -70,20 +72,21 @@
 }
 
 .card {
-  width: 10em;
-  height: 14em;
-  background: #07182E;
-  border-radius: 5px;
+  width: 10.8em;
+  height: 16em;
+  background: #530008cd;
+  border-radius: 0.5em;
   text-align: center;
   color: #f0f0f0;
-  font-family: inherit;
+  font-family: 'Montserrat';
   z-index: 1;
-  padding-top:1.7em;
+  padding-top:0.5em;
+  margin: 0 auto;
 }
 
 .img {
   display: flex;
-  margin: 5em auto 5em auto;
+  margin: 5em auto 4em auto;
   width: 8em;
   height: 8em;
   border: 1px solid #f0f0f0;
@@ -103,8 +106,16 @@ p {
 
 .heading {
   padding: 0;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 1.2em;
+  transition: all 0.5s;
+}
+
+.designation{
+  padding: 0;
+  margin-top: 1.7em;
+  font-weight: 400;
+  font-size: 0.7em;
   transition: all 0.5s;
 }
 
@@ -116,6 +127,11 @@ svg {
 .card:hover .img {
   transform: scale(1.4);
   border: 1px solid #f0f0f0;
+}
+
+.card:hover .designation {
+  transform: scale(1.2);
+  font-size: 0.8em;
 }
 
 .card:hover .heading,
