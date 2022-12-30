@@ -39,7 +39,7 @@ import "slick-carousel/slick/slick-theme.css";
             </div>
         </div>
 
-          <div class="animate__animated animate__fadeIn animate__delay-1s animate__fast">
+          <div class="animate__animated animate__fadeIn animate__fast">
         <div className={styles.maincontainer}>
           <div className={styles.carouselbox}>
           <Slider className={styles.carouse} {...settings}>

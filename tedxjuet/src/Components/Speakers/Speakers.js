@@ -101,7 +101,7 @@ transgender activist Laxmi Narayan Tripathi is now keen to uplift the community 
            <div className={styles.front}>
               <img className={styles.speakpic} src="https://raw.githubusercontent.com/047pegasus/TEDXJUET/master/tedxjuet/src/Assets/ANANT.png" alt="Pic"></img>
                <h3 className={styles.title}>ANANT LADHA</h3>
-               <p className={styles.subtitle}>FINANCE, 2023 Speaker, TEDx JUET</p>
+               <p className={styles.subtitle}>Finance, 2023 Speaker, TEDx JUET</p>
          </div>
            <div className={styles.back}>
                <p className={styles.description}>
