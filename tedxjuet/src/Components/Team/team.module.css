@@ -33,50 +33,7 @@
     border-radius:0.7em;
     margin: 0 auto;
     text-align: center;
-}
-
-.underl{
-  font-size: 3em;
-  color: #e1e1e1;
-  font-family: 'Montserrat' , sans-serif;
-  font-weight: 700;
-  cursor: pointer;
-  position: relative;
-  border:none;
-  background: none;
-  text-transform: uppercase;
-  transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
-  transition-duration: 400ms;
-  transition-property: color;
-  width: fit-content;
-  margin: 0 auto;
-  margin-top:1em;
-  margin-bottom: 0.5em;
-}
-
-.underl:focus,
-.underl:hover {
-  color: #fff;
-}
-
-.underl:focus:after,
-.underl:hover:after {
-  width: 100%;
-  left: 0%;
-}
-
-.underl:after {
-  content: "";
-  pointer-events: none;
-  bottom: -2px;
-  left: 50%;
-  position: absolute;
-  width: 0%;
-  height: 2px;
-  background-color: #fff;
-  transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
-  transition-duration: 400ms;
-  transition-property: width, left;
+    margin-top: 2em;
 }
 
 .carouse{
@@ -137,6 +94,11 @@ p {
   font-weight: 400;
   font-size: 0.7em;
   transition: all 0.5s;
+}
+
+.know{
+  text-align: center;
+  font-size: 0.7em;
 }
 
 svg{

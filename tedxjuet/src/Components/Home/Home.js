@@ -21,7 +21,7 @@ return(
         <div><Link to="/about">About</Link></div>
         <div><Link to="/team">Meet the Team</Link></div>
         <div><Link to="/speakers">Current Speakers</Link></div>
-        <div><a href="https://www.ted.com/tedx/events/26452">Previous Events</a></div>
+        <div><a href="https://www.ted.com/tedx/events/26452" target="blank">Previous Events</a></div>
       </div>
     </div>
     <div class="main-container">

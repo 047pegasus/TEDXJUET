@@ -33,7 +33,8 @@ return(
         <div><Link to="/about">About</Link></div>
         <div><Link to="/team">Meet the Team</Link></div>
         <div><Link to="">Current Speakers</Link></div>
-        <div><a href="https://www.ted.com/tedx/events/26452">Previous Events</a></div>
+        <div><a href="https://www.ted.com/tedx/events/26452" target="blank">Previous Events</a></div>
+        <div class="logosmall"><img src="https://raw.githubusercontent.com/047pegasus/TEDXJUET/bd64a1582468cd052dcd5e90fd23c58111691daf/tedxjuet/src/Assets/tedxmain.png" class="logosmallimg" alt="TEDx JUET"></img></div>
       </div>
     </div>
     
