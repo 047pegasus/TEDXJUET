@@ -8,12 +8,16 @@
     src:url("../../Assets/Montserrat-SemiBold.ttf");
 }
   
-  
+
 @font-face{
     font-family: "Montserrat Medium";
     src:url("../../Assets/Montserrat-Medium.ttf");
 }
-  
+
+body{
+  overflow: hidden;
+}
+
 .maincontain{
     font-family: 'Montserrat' , sans-serif;
     color:white;
@@ -42,11 +46,13 @@
     text-align: center;
     width: auto;
     height:40em;
+    border-radius: 0.7em;
 }
 
 .carousecontent{
     height: 100%;
     width:fit-content;
+    border-radius: 0.7em;
 }
 
 .card {
@@ -54,16 +60,22 @@
     height:35em;
     cursor: pointer;
     margin: 0 auto;
+    border-radius: 0.7em;
   }
   
   .content {
     text-align: center;
     position: relative;
     transition: all 2.25s;
-    background-color: rgb(71, 0, 0);
+    background: rgb(108,13,0);
+    background: -moz-linear-gradient(131deg, rgba(108,13,0,1) 0%, rgba(87,11,0,1) 64%, rgba(50,0,0,1) 100%);
+    background: -webkit-linear-gradient(131deg, rgba(108,13,0,1) 0%, rgba(87,11,0,1) 64%, rgba(50,0,0,1) 100%);
+    background: linear-gradient(131deg, rgba(108,13,0,1) 0%, rgba(87,11,0,1) 64%, rgba(50,0,0,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#6c0d00",endColorstr="#320000",GradientType=1);
     padding: 26%;
     margin: 0 auto;
     transform-style: preserve-3d;
+    border-radius: 1em;
   }
   
   .card:hover .content {
@@ -112,7 +124,7 @@
   
   .back {
     transform: rotateY(0.5turn);
-    background-color: #1e0032;
+    background-color: #ad000000;
   }
   
   .description {

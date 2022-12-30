@@ -10,6 +10,8 @@ import {
 
 import styles from "../About/about.module.css";
 
+import 'animate.css';
+
  function About(){
     const navigate = useNavigate();
     navigate("/about");
@@ -19,7 +21,7 @@ import styles from "../About/about.module.css";
         <div class="navbar">
             <div class="navspan">
                 <div class="hm"><a href="/">Home</a></div>
-                <div><Link to="/about">About</Link></div>
+                <div><Link to="">About</Link></div>
                 <div><Link to="/team">Meet the Team</Link></div>
                 <div><Link to="/speakers">Current Speakers</Link></div>
                 <div><a href="https://www.ted.com/tedx/events/26452">Previous Events</a></div>
@@ -28,6 +30,7 @@ import styles from "../About/about.module.css";
         </div>
 
         <div className={styles.maincontainer}>
+            <div class="animate__animated animate__fadeIn">
             <div className={styles.heading}>
                 <p className={styles.headwhite}>About </p>
                 <p className={styles.headred}> TEDx JUET</p>
@@ -60,7 +63,7 @@ The annual TED Conference takes place each spring in Vancouver, British Columbia
 Follow TED on Twitter at http://twitter.com/TEDTalks, or on Facebook at http://www.facebook.com/TED.
                 </p>
             </div>
-
+          </div>
         </div>
 
         <div class="footer">

@@ -8,12 +8,14 @@ import {
   faInstagram
 } from "@fortawesome/free-brands-svg-icons";
 
+import 'animate.css';
+
 function Home(){
   const navigate = useNavigate();
   navigate("/");
 return(
   <div id="root">
-    <div class="navbar">
+    <div class="animate__animated animate__fadeIn navbar">
       <div class="navspan">
         <div class="hm"><a href="/">Home</a></div>
         <div><Link to="/about">About</Link></div>
@@ -23,9 +25,9 @@ return(
       </div>
     </div>
     <div class="main-container">
-      <div class="main-logo"> </div>     
-      <div class="tagline"> Innovating. Creating. Developing. </div>
-      <Link to="/speakers"><button>
+      <div class="main-logo animate__animated animate__fadeInUp"> </div>     
+      <div class="tagline animate__animated animate__fadeIn animate__delay-1s"> Innovating. Creating. Developing. </div>
+      <Link to="/speakers"><button class="animate__animated animate__fadeIn">
   <span></span>
   <span></span>
   <span></span>
@@ -33,7 +35,7 @@ return(
 </button>
   </Link>
     </div>
-    <div class="footer">
+    <div class="footer animate__animated animate__fadeInUp animate__delay-1s">
       <div class="footer-span">
         <div class="clg-logo"> 
         <a href="https://www.juet.ac.in" target="blank"><img class="img-logo" src="https://admission.juet.ac.in/static/images/juet_trans1.jpg" alt="JUET"></img></a>

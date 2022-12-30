@@ -24,6 +24,7 @@ function Speakers(){
     slidesToShow: 1,
     slidesToScroll: 1
   };
+
 return(
   <div id="root">
     <div class="navbar">
@@ -31,21 +32,26 @@ return(
         <div class="hm"><a href="/">Home</a></div>
         <div><Link to="/about">About</Link></div>
         <div><Link to="/team">Meet the Team</Link></div>
-        <div><Link to="/speakers">Current Speakers</Link></div>
+        <div><Link to="">Current Speakers</Link></div>
         <div><a href="https://www.ted.com/tedx/events/26452">Previous Events</a></div>
       </div>
     </div>
     
     <div className={styles.maincontain}>
+      <div class="animate__animated animate__fadeInUp">
       <div className={styles.carousecontainer}>
-    <Slider class Nmae={styles.carouse}{...settings}>
+    <Slider class Name={styles.carouse}{...settings}>
           <div className={styles.carousecontent}>
           <div className={styles.card}>
        <div className={styles.content}>
            <div className={styles.front}>
+           <div class="animate__animated animate__fadeIn animate__delay-1s">
               <img className={styles.speakpic} src="https://raw.githubusercontent.com/047pegasus/TEDXJUET/master/tedxjuet/src/Assets/JAYA.png" alt="Pic"></img>
+               </div>
+                <div class="animate__animated animate__fadeIn animate__delay-2s">
                <h3 className={styles.title}>JAYA SHARMA(KISHORI)</h3>
                <p className={styles.subtitle}>World Peace, 2023 Speaker, TEDx JUET</p>
+               </div>
          </div>
            <div className={styles.back}>
                <p className={styles.description}>
@@ -108,6 +114,7 @@ Anant attended The Institute Of Chartered Accounts of India for CA and received 
            </div>
           </div>
         </Slider>
+        </div>
         </div>
     </div>
 

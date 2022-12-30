@@ -32,17 +32,20 @@ import "slick-carousel/slick/slick-theme.css";
             <div class="navspan">
                 <div class="hm"><a href="/">Home</a></div>
                 <div><Link to="/about">About</Link></div>
-                <div><Link to="/team">Meet the Team</Link></div>
+                <div><Link to="">Meet the Team</Link></div>
                 <div><Link to="/speakers">Current Speakers</Link></div>
                 <div><a href="https://www.ted.com/tedx/events/26452">Previous Events</a></div>
                 <div class="logosmall"><img src="https://raw.githubusercontent.com/047pegasus/TEDXJUET/bd64a1582468cd052dcd5e90fd23c58111691daf/tedxjuet/src/Assets/tedxmain.png" class="logosmallimg" alt="TEDx JUET"></img></div>
             </div>
         </div>
+        <div class="animate__animated animate__fadeIn">
         <div className={styles.underl}>
            Team Members
           </div>
-        <div className={styles.maincontainer}>
+          </div>
           
+          <div class="animate__animated animate__fadeIn animate__delay-1s animate__fast">
+        <div className={styles.maincontainer}>
           <div className={styles.carouselbox}>
           <Slider className={styles.carouse} {...settings}>
           <div className={styles.carousecontent}>
@@ -186,8 +189,7 @@ import "slick-carousel/slick/slick-theme.css";
 </div>     
           </div>
         </Slider>
-          </div>
-
+        </div>
           <div className={styles.carouselbox}>
           <Slider className={styles.carouse} {...settings}>
           <div className={styles.carousecontent}>
@@ -477,9 +479,10 @@ import "slick-carousel/slick/slick-theme.css";
 </div>
           </div>
         </Slider>
-          </div>   
-
+          </div>  
         </div>
+    
+    </div>
 
         <div class="footer">
       <div class="footer-span">
