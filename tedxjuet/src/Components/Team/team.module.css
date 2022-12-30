@@ -1,5 +1,10 @@
+@font-face {
+  font-family:"Montserrat" ;
+  src: url("../../Assets/Montserrat-VariableFont_wght.ttf");
+}
+
 .maincontainer{
-    font-family: 'Montserrat';
+    font-family: 'Montserrat' , sans-serif;
     font-size: 2em;
     display: flex;
     justify-content: flex-start;
@@ -18,7 +23,7 @@
 .underl{
   font-size: 3em;
   color: #e1e1e1;
-  font-family: 'Montserrat';
+  font-family: 'Montserrat' , sans-serif;
   font-weight: 700;
   cursor: pointer;
   position: relative;
@@ -62,7 +67,7 @@
 .carouse{
   height:100%;
   width: auto;
-  font-family: 'Montserrat';
+  font-family: 'Montserrat', sans-serif;
   padding-top:1em;
 }
 
@@ -78,7 +83,7 @@
   border-radius: 0.5em;
   text-align: center;
   color: #f0f0f0;
-  font-family: 'Montserrat';
+  font-family: 'Montserrat', sans-serif;
   z-index: 1;
   padding-top:0.5em;
   margin: 0 auto;

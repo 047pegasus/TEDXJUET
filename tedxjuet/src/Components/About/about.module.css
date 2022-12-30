@@ -1,3 +1,8 @@
+@font-face {
+    font-family:"Montserrat" ;
+    src: url("../../Assets/Montserrat-VariableFont_wght.ttf");
+}
+
 .maincontainer{
    height: fit-content;
    width: 80%;
@@ -43,7 +48,7 @@
 
 .info{
     opacity: 1;
-    font-family:'Montserrat';
+    font-family:'Montserrat', sans-serif;
     height: fit-content;
     margin: 0 auto;
     margin-top: 0.3em;
