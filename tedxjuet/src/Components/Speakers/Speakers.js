@@ -12,7 +12,7 @@ import styles from "../Speakers/speakers.module.css";
 
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css"; 
-import "slick-carousel/slick/slick-theme.css";
+import "slick-carousel/slick/slick-theme.css"; 
 
 function Speakers(){
   const navigate = useNavigate();
@@ -43,7 +43,7 @@ return(
           <div className={styles.card}>
        <div className={styles.content}>
            <div className={styles.front}>
-              <img className={styles.speakpic} src="" alt="Pic"></img>
+              <img className={styles.speakpic} src="https://raw.githubusercontent.com/047pegasus/TEDXJUET/master/tedxjuet/src/Assets/JAYA.png" alt="Pic"></img>
                <h3 className={styles.title}>JAYA SHARMA(KISHORI)</h3>
                <p className={styles.subtitle}>World Peace, 2023 Speaker, TEDx JUET</p>
          </div>
@@ -59,7 +59,7 @@ return(
           <div className={styles.card}>
        <div className={styles.content}>
            <div className={styles.front}>
-              <img className={styles.speakpic} src="" alt="Pic"></img>
+              <img className={styles.speakpic} src="https://raw.githubusercontent.com/047pegasus/TEDXJUET/master/tedxjuet/src/Assets/SUNITA.png" alt="Pic"></img>
                <h3 className={styles.title}>SUNITA NARAIN</h3>
                <p className={styles.subtitle}>Nature, 2023 Speaker, TEDx JUET</p>
          </div>
@@ -75,7 +75,7 @@ return(
           <div className={styles.card}>
        <div className={styles.content}>
            <div className={styles.front}>
-              <img className={styles.speakpic} src="" alt="Pic"></img>
+              <img className={styles.speakpic} src="https://raw.githubusercontent.com/047pegasus/TEDXJUET/master/tedxjuet/src/Assets/LAXMI%20.png" alt="Pic"></img>
                <h3 className={styles.title}>LAXMI NARAYAN TRIPATHI</h3>
                <p className={styles.subtitle}>Transgender Rights, 2023 Speaker, TEDx JUET</p>
          </div>
@@ -92,7 +92,7 @@ transgender activist Laxmi Narayan Tripathi is now keen to uplift the community 
           <div className={styles.card}>
        <div className={styles.content}>
            <div className={styles.front}>
-              <img className={styles.speakpic} src="" alt="Pic"></img>
+              <img className={styles.speakpic} src="https://raw.githubusercontent.com/047pegasus/TEDXJUET/master/tedxjuet/src/Assets/ANANT.png" alt="Pic"></img>
                <h3 className={styles.title}>ANANT LADHA</h3>
                <p className={styles.subtitle}>FINANCE, 2023 Speaker, TEDx JUET</p>
          </div>
