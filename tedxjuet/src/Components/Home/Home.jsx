@@ -29,7 +29,7 @@ return(
     <div class="main-container">
       <div class="main-logo animate__animated animate__fadeInUp"> </div>     
       <div class="tagline animate__animated animate__fadeIn animate__delay-1s"> Innovating. Creating. Developing. </div>
-      <Link to="/speakers"><button class="animate__animated animate__fadeIn">
+      <Link to="/speakers"><button class="animate__animated animate__fadeIn animate__delay-2s">
   <span></span>
   <span></span>
   <span></span>
