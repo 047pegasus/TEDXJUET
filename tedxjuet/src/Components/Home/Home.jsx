@@ -10,15 +10,17 @@ import {
 
 import 'animate.css';
 
-function Home(){
+const Home = () => {
+  
   const navigate = useNavigate();
-  navigate("/");
+  navigate("/home");
+
 return(
   <div id="root">
     <div class="animate__animated animate__fadeIn navbar">
       <div class="navspan">
         <div class="hm"><a href="/">Home</a></div>
-        <div><Link to="/about">About</Link></div>
+        <div><a href="/about">About</a></div>
         <div><Link to="/team">Meet the Team</Link></div>
         <div><Link to="/speakers">Current Speakers</Link></div>
         <div><a href="https://www.ted.com/tedx/events/26452" target="blank">Previous Events</a></div>
@@ -55,5 +57,6 @@ return(
 
   </div>
 );
-}
+
+};
 export default Home;

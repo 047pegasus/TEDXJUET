@@ -15,9 +15,11 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
 
- function Team(){
+const Team = () => {
+
     const navigate = useNavigate();
     navigate("/team");
+
     const settings = {
       dots: true,
       infinite: true,
@@ -25,6 +27,7 @@ import "slick-carousel/slick/slick-theme.css";
       slidesToShow: 1,
       slidesToScroll: 1
     };
+
     return(
      <div id="root">
 
@@ -32,7 +35,7 @@ import "slick-carousel/slick/slick-theme.css";
             <div class="navspan">
                 <div class="hm"><a href="/">Home</a></div>
                 <div><Link to="/about">About</Link></div>
-                <div><Link to="">Meet the Team</Link></div>
+                <div><a href="/team">Meet the Team</a></div>
                 <div><Link to="/speakers">Current Speakers</Link></div>
                 <div><a href="https://www.ted.com/tedx/events/26452" target="blank">Previous Events</a></div>
                 <div class="logosmall"><img src="https://raw.githubusercontent.com/047pegasus/TEDXJUET/bd64a1582468cd052dcd5e90fd23c58111691daf/tedxjuet/src/Assets/tedxmain.png" class="logosmallimg" alt="TEDx JUET"></img></div>
@@ -541,6 +544,6 @@ import "slick-carousel/slick/slick-theme.css";
 
     </div>
     );
- }
+ };
 
  export default Team;

@@ -12,16 +12,18 @@ import styles from "../About/about.module.css";
 
 import 'animate.css';
 
- function About(){
+const About = () => {
+
     const navigate = useNavigate();
     navigate("/about");
+
     return(
      <div id="root">
 
         <div class="navbar">
             <div class="navspan">
                 <div class="hm"><a href="/">Home</a></div>
-                <div><Link to="">About</Link></div>
+                <div><a href="/about">About</a></div>
                 <div><Link to="/team">Meet the Team</Link></div>
                 <div><Link to="/speakers">Current Speakers</Link></div>
                 <div><a href="https://www.ted.com/tedx/events/26452" target="blank">Previous Events</a></div>
@@ -86,6 +88,7 @@ Follow TED on Twitter at http://twitter.com/TEDTalks, or on Facebook at http://w
 
     </div>
     );
- }
+ 
+ };
 
  export default About;
