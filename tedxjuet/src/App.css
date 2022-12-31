@@ -47,16 +47,28 @@ body{
     padding-right: 0.7em;
     font-family: 'Montserrat SemiBold', sans-serif;
     margin-left: 0.4em;
-    margin-right: 0.3em;
-    transition: all 0.5s;
-    transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
-    transition-duration: 400ms;
+    margin-right: 0.4em;
     width: fit-content;
 }
 
 .hm a{
     color: red;
     font-weight: 900;
+}
+
+.active{
+    text-decoration: none;
+    color: white;
+    font-family: 'Montserrat SemiBold', sans-serif;
+    margin-left: 0.4em;
+    margin-right: 1em;
+    transition: all 0.5s;
+    border-bottom: solid white; 
+    cursor: pointer;
+}
+
+.active:hover{
+    border-bottom: solid red;
 }
 
 .logosmall{

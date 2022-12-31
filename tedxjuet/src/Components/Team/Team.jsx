@@ -35,8 +35,8 @@ const Team = () => {
             <div class="navspan">
                 <div class="hm"><a href="/">Home</a></div>
                 <div><Link to="/about">About</Link></div>
-                <div><a href="/team">Meet the Team</a></div>
-                <div><Link to="/speakers">Current Speakers</Link></div>
+                <div class="active">Meet the Team</div>
+                <div><Link to="/speakers">Speakers</Link></div>
                 <div><a href="https://www.ted.com/tedx/events/26452" target="blank">Previous Events</a></div>
                 <div class="logosmall"><img src="https://raw.githubusercontent.com/047pegasus/TEDXJUET/bd64a1582468cd052dcd5e90fd23c58111691daf/tedxjuet/src/Assets/tedxmain.png" class="logosmallimg" alt="TEDx JUET"></img></div>
             </div>
