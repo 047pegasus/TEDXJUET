@@ -44,32 +44,47 @@ body{
 .navbar a{
     text-decoration: none;
     color: white;
-    padding-right: 0.7em;
+    padding-right:0;
     font-family: 'Montserrat SemiBold', sans-serif;
-    margin-left: 0.4em;
-    margin-right: 0.4em;
-    width: fit-content;
+    margin:0 auto;
+    width: max-content;
 }
 
 .hm a{
     color: red;
     font-weight: 900;
+    margin-right:0.8em;
 }
 
 .active{
     text-decoration: none;
     color: white;
     font-family: 'Montserrat SemiBold', sans-serif;
-    margin-left: 0.4em;
-    margin-right: 1em;
+    margin-left: 0.5em;
+    margin-right:0.8em;
     transition: all 0.5s;
-    border-bottom: solid white; 
+    position: relative;
     cursor: pointer;
 }
 
-.active:hover{
-    border-bottom: solid red;
+.active::before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 0;
+    height: 2px;
+    background-color: #ffffff;
+    transition: width 0.6s cubic-bezier(0.25, 1, 0.5, 1);
 }
+  
+  @media (hover: hover) and (pointer: fine) {
+    .active:hover::before{
+      left: 0;
+      right: auto;
+      width: 100%;
+    }
+  }
 
 .logosmall{
     height: auto;
