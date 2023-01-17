@@ -6,5 +6,5 @@ Official repository for TED x JUET web page development.
 <a href="https://github.com/047pegasus/TEDXJUET/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=047pegasus/TEDXJUET" />
 </a>
-
+<br/>
 Made with [contrib.rocks](https://contrib.rocks).
